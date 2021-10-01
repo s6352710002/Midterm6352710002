@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online Service">
+    <meta name="keywords" content="Online Service SAU DTI">
+    <meta name="author" content="ณิชากร ว่องวิทยโยธิน 6352710002 DTI SAU"> 
+    <title>Online Service</title>
+</head>
+<body>
+    <div align="center">
+        <img src="./image/logo.PNG" alt="โลโก้" width="400">
+    </div>
+    <h2 align="center">
+        Online Services V.1.0
+    </h2>
+    <h4 align="center">
+        "ชำระค่าสาธารณูปโภคหลากหลายเพื่อความสะดวกของคุณ"
+    </h4>
+    <hr width="90%">
+    <table align="center" cellpadding="10">
+        <tr>
+            <td align="right">
+                รหัสประจำตัวประชาชน
+            </td>
+            <td>
+                <input type="text" name="ID" id="">
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                คำนำหน้า
+            </td>
+            <td>
+                <input type="radio" name="name_type" id="" checked>นาย
+                <input type="radio" name="name_type" id="">นาง
+                <input type="radio" name="name_type" id="">นางสาว
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                ชื่อ - สกุล
+            </td>
+            <td>
+                <input type="text" name="name" id="">
+            </td>
+        </tr>
+        <tr>
+            <td align="right" valign="top">
+                ค่าสาธารณูปโภค
+            </td>
+            <td>
+                <input type="checkbox" name="plumbing" id="" value="a">ประปา
+                &nbsp;&nbsp;<input type="text" name="plumbing_cost" id=""> บาท      
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="electricity" id="" value="b">ไฟฟ้า
+                &nbsp;&nbsp;<input type="text" name="electricity_cost" id=""> บาท
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="telephone" id="" value="c">โทรศัพท์บ้าน
+                &nbsp;&nbsp;<input type="text" name="telephone_cost" id=""> บาท
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="AIS" id="" value="d">AIS
+                &nbsp;&nbsp;<input type="text" name="AIS_cost" id=""> บาท
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="DTAC" id="" value="d">DTAC
+                &nbsp;&nbsp;<input type="text" name="DTAC_cost" id=""> บาท
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="TRUE" id="" value="d">TRUE
+                &nbsp;&nbsp;<input type="text" name="TRUE_cost" id=""> บาท
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                ส่วนลดเฉพาะค่าสาธารณูปโภค
+            </td>
+            <td>
+                <select name="discount" id="">
+                    <option value="1">ไม่มีส่วนลด</option>
+                    <option value="2">ลด 5 %</option>
+                    <option value="3">ลด 10 %</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <hr width="90%">
+    <table align="center" cellpadding="10">
+        <tr>
+            <td>
+                <button>ชำระค่าบริการ</button> 
+            </td>
+            <td>
+                <button>ยกเลิก</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div align="center">
+        <b><u>หมายเหตุ</u></b> ค่าบริการ 15 บาทต่อรายการสาธารณูปโภค และไม่นำไปคิดกับส่วนลด
+    </div>
+</body>
+</html>
